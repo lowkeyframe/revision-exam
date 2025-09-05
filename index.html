@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feuille de Révision – Introduction à l’Informatique</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #0052cc;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      background: #eee;
+      padding: 1rem 2rem;
+    }
+    nav h2 {
+      margin-top: 0;
+    }
+    nav ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    nav ul li {
+      margin-bottom: 0.5rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #0052cc;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 2rem;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    section h2 {
+      color: #0052cc;
+      border-bottom: 2px solid #0052cc;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.3rem;
+    }
+    code {
+      background: #f0f0f0;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background: #0052cc;
+      color: #fff;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Feuille de Révision – Examen d’Introduction à l’Informatique</h1>
+  </header>
+
+  <nav>
+    <h2>Sommaire</h2>
+    <ul>
+      <li><a href="#histoire">1. Histoire de l’informatique</a></li>
+      <li><a href="#composantes">2. Composantes d’un ordinateur</a></li>
+      <li><a href="#logiciels">3. Logiciels et Systèmes d’exploitation</a></li>
+      <li><a href="#formatage">4. Formatage et Partitions</a></li>
+      <li><a href="#donnees">5. Données et Préfixes</a></li>
+      <li><a href="#programmation">6. Programmation</a></li>
+      <li><a href="#web">7. Web et Réseaux</a></li>
+      <li><a href="#git">8. Git et GitHub</a></li>
+      <li><a href="#teams">9. Procédures Teams</a></li>
+      <li><a href="#formats">10. Formats de fichiers importants</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="histoire">
+      <h2>1. Histoire de l’informatique</h2>
+      <ul>
+        <li>Informatique : Science du traitement numérique de l’information.</li>
+        <li>Grandes périodes :
+          <ul>
+            <li>Antiquité : Premiers outils de calculs (Exemple : boulier)</li>
+            <li>Renaissance : Machine analytique de Babbage, Métier à Tisser de Jacquard</li>
+            <li>Années 1930-40 : Alan Turing formalise la base théorique de l’ordinateur</li>
+            <li>Années 1940-50 : Premiers ordinateurs électroniques (ENIAC, UNIVAC)</li>
+            <li>Années 1970-80 : Micro-ordinateurs, premiers systèmes personnels</li>
+            <li>Années 1990 : Internet commercialisé</li>
+            <li>Années 2000-2010 : Web 2.0, réseaux sociaux, smartphones</li>
+            <li>Aujourd’hui : IA, cloud, big data</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="composantes">
+      <h2>2. Composantes d’un ordinateur</h2>
+      <ul>
+        <li><strong>CPU :</strong> Cerveau de l’ordinateur (cœurs, threads, cadence en GHz, cache)</li>
+        <li><strong>RAM :</strong> Mémoire temporaire à court terme (8 Go minimum, 16 Go recommandé)</li>
+        <li><strong>Disques :</strong>
+          <ul>
+            <li>HDD : mécanique, grande capacité, lent (jusqu’à 16 To)</li>
+            <li>SSD : électronique, rapide, capacité moyenne (jusqu’à 4 To)</li>
+          </ul>
+        </li>
+        <li><strong>Carte mère :</strong> Relie toutes les composantes</li>
+        <li><strong>Carte graphique (GPU) :</strong> Affichage et traitement parallèle</li>
+        <li><strong>PSU :</strong> Fournit l’énergie nécessaire</li>
+        <li><strong>Boîtier :</strong> Protège et organise les composants</li>
+      </ul>
+    </section>
+
+    <section id="logiciels">
+      <h2>3. Logiciels et Systèmes d’exploitation</h2>
+      <ul>
+        <li><strong>Systèmes d’exploitation :</strong> Windows (Microsoft), MacOS (Apple), Linux (open-source), Android (Google), iOS (Apple)</li>
+        <li><strong>Pilotes (drivers) :</strong> Permettent la communication matériel/OS</li>
+        <li><strong>Applications :</strong> Logiciels pour des tâches spécifiques</li>
+      </ul>
+    </section>
+
+    <section id="formatage">
+      <h2>4. Formatage et Partitions</h2>
+      <ul>
+        <li>Formater = préparer un disque avec un système de fichiers</li>
+        <li>Formats :
+          <ul>
+            <li>exFAT : Compatible Mac/Windows (> 4 Go)</li>
+            <li>FAT32 : Pour < 4 Go</li>
+            <li>NTFS : Pour Windows</li>
+            <li>Mac OS étendu journalisé : Pour Mac</li>
+          </ul>
+        </li>
+        <li>Partition = division logique d’un disque</li>
+      </ul>
+    </section>
+
+    <section id="donnees">
+      <h2>5. Données et Préfixes</h2>
+      <ul>
+        <li>Bit = 0 ou 1</li>
+        <li>1 octet = 8 bits</li>
+        <li>Préfixes :
+          <ul>
+            <li>Kilo (KB) = 1 000 octets</li>
+            <li>Méga (MB) = 1 000 000 octets</li>
+            <li>Giga (GB) = 1 000 000 000 octets</li>
+            <li>Tera (TB) = 1 000 000 000 000 octets</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="programmation">
+      <h2>6. Programmation</h2>
+      <ul>
+        <li>Concept : Parler le langage de la machine pour exécuter des instructions</li>
+        <li>Langages :
+          <ul>
+            <li>Web : HTML, CSS, JavaScript, PHP</li>
+            <li>Généraliste : Python</li>
+            <li>Bas niveau : C</li>
+            <li>Applications exigeantes : C++, C#</li>
+            <li>Base de données : SQL</li>
+          </ul>
+        </li>
+        <li>Concepts de base :
+          <ul>
+            <li>Variables : Conteneurs de données</li>
+            <li>Conditions : Si… alors (if… then)</li>
+            <li>Boucles : Répétitions (while, for each)</li>
+            <li>Fonctions : Blocs réutilisables</li>
+            <li>Événements : Déclenchement par l’utilisateur (clic, mouvement…)</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="web">
+      <h2>7. Web et Réseaux</h2>
+      <ul>
+        <li><strong>LAN :</strong> Réseau local</li>
+        <li><strong>WAN :</strong> Réseau étendu</li>
+        <li><strong>Internet :</strong> Réseau mondial</li>
+        <li><strong>Web :</strong> Service pour afficher les pages via un navigateur</li>
+        <li><strong>Domaine :</strong> Adresse lisible (ex. www.site.com)</li>
+        <li><strong>Hébergement :</strong> Serveur où sont stockés les fichiers du site</li>
+        <li><strong>Front-end :</strong> Interface visible (design, UX)</li>
+        <li><strong>Back-end :</strong> Logique serveur, bases de données, requêtes</li>
+        <li><strong>Full-stack :</strong> Fait les deux (front-end + back-end)</li>
+      </ul>
+    </section>
+
+    <section id="git">
+      <h2>8. Git et GitHub</h2>
+      <ul>
+        <li><strong>Git :</strong> Logiciel local de gestion de versions (pas besoin d’Internet), développé par Linus Torvalds</li>
+        <li><strong>GitHub :</strong> Plateforme d’hébergement pour projets Git (collaboration en ligne)</li>
+      </ul>
+    </section>
+
+    <section id="teams">
+      <h2>9. Procédures Teams</h2>
+      <ul>
+        <li>Classer des fichiers par format → archiver en <code>.zip</code> → déposer sur Teams</li>
+        <li>Identifier les composantes d’un poste → via Propriétés de « Ce PC » ou Gestionnaire de périphériques</li>
+        <li>Réserver un local → via Teamup</li>
+        <li>Réserver du matériel → via formulaire en ligne</li>
+      </ul>
+    </section>
+
+    <section id="formats">
+      <h2>10. Formats de fichiers importants</h2>
+      <ul>
+        <li><strong>Texte :</strong> .txt, .doc/.docx, .pdf, .csv</li>
+        <li><strong>Image :</strong> .jpg, .png, .gif, .tif, .webp</li>
+        <li><strong>Audio/Vidéo :</strong> .mp3, .wav, .flac, .mp4</li>
+        <li><strong>Web :</strong> .html, .css, .js, .json, .md</li>
+        <li><strong>Archives :</strong> .zip, .rar, .7z, .iso</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Feuille de Révision – Introduction à l’Informatique
+  </footer>
+</body>
+</html>
